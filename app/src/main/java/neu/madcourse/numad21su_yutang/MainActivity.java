@@ -2,6 +2,7 @@ package neu.madcourse.numad21su_yutang;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.view.View;
@@ -21,5 +22,18 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Name: Yu Tang;\nEmail: tang.y@northeastern.edu", Toast.LENGTH_LONG).show();
             }
         });
+
+        Button launcherBtn = (Button) findViewById(R.id.launcher);
+        launcherBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSixBtns();
+            }
+        });
+    }
+
+    private void openSixBtns() {
+        Intent intent = new Intent(this, SixBtns.class);
+        startActivity(intent);
     }
 }
