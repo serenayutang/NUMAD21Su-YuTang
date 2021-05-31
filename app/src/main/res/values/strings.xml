@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">NUMAD21Su-YuTang</string>
+    <string name="launch_activity">Launch Activity</string>
+    <string name="about">About</string>
+    <string name="intro_text">Hello World!</string>
+    <string name="btnA">A</string>
+    <string name="btnB">B</string>
+    <string name="btnC">C</string>
+    <string name="btnD">D</string>
+    <string name="btnE">E</string>
+    <string name="btnF">F</string>
+    <string name="six_buttons">Choose One Button from Below</string>
 </resources>
