@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.LENGTH_LONG).show();
             }
         });
+
         Button launcherBtn = findViewById(R.id.launcher);
         launcherBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +39,16 @@ public class MainActivity extends AppCompatActivity {
                 Intent linkCollectorIntent = new Intent(getApplicationContext(),
                         LinkCollectorActivity.class);
                 startActivity(linkCollectorIntent);
+            }
+        });
+
+        Button location = findViewById(R.id.location);
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent locationIntent = new Intent(getApplicationContext(),
+                        LocationActivity.class);
+                startActivity(locationIntent);
             }
         });
     }
