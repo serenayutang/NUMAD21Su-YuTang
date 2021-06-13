@@ -20,4 +20,8 @@
     <string name="linkAddBtn">Add</string>
     <string name="name_placeholder">Name</string>
     <string name="url_placeholder">URL</string>
+    <string name="lat">Latitude</string>
+    <string name="lon">Longitude</string>
+    <string name="button_location">Get Location</string>
+    <string name="location">Location</string>
 </resources>
