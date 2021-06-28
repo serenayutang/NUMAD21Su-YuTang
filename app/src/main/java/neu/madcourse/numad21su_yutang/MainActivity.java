@@ -51,6 +51,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(locationIntent);
             }
         });
+
+        Button service = findViewById(R.id.service);
+        service.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent serviceIntent = new Intent(getApplicationContext(),
+                        AtServiceActivity.class);
+                startActivity(serviceIntent);
+            }
+        });
     }
 
     private void openSixBtns() {

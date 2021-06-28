@@ -15,6 +15,7 @@
         <activity android:name=".SixBtns" />
         <activity android:name=".LinkCollectorActivity" />
         <activity android:name=".LocationActivity" />
+        <activity android:name=".AtServiceActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

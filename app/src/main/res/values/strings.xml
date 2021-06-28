@@ -24,4 +24,7 @@
     <string name="lon">Longitude</string>
     <string name="button_location">Get Location</string>
     <string name="location">Location</string>
+    <string name="at_your_service">At Your Service</string>
+    <string name="buttonGetNewCases">Get New Case Numbers</string>
+    <string name="newCases">NEW COVID CASES IN CA TODAY</string>
 </resources>
